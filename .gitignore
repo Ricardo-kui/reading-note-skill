@@ -1,0 +1,18 @@
+# Zotero DB 缓存（本地路径硬编码，不应提交）
+cache/zotero_cache.sqlite
+cache/zotero_cache.sqlite-wal
+cache/zotero_cache.sqlite-shm
+cache/zotero_cache.sqlite.tmp
+cache/zotero_cache.mtime
+
+# Python 编译缓存
+scripts/__pycache__/
+*.pyc
+*.pyo
+
+# 备份笔记（save_note.py 自动生成）
+*.bak.*.md
+
+# 系统文件
+.DS_Store
+Thumbs.db

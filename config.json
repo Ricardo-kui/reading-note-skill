@@ -1,0 +1,29 @@
+{
+  "python_path": "C:/Users/40500/AppData/Local/Programs/Python/Python312/python.exe",
+  "vault_path": "C:/Users/40500/OneDrive/Obsidian Vault",
+  "literature_folder": "literature",
+  "zotero_db": "C:/Users/40500/Zotero/zotero.sqlite",
+  "zotero_storage": "C:/Users/40500/Zotero/storage",
+  "default_tags": ["literature-note", "paper"],
+  "note_language": "zh-en",
+  "reading_framework": "amj-canvas",
+  "backup_on_overwrite": true,
+  "log_all_notes": true,
+  "pdf_engines": {
+    "primary": "markitdown",
+    "fallback": "opendataloader-pdf",
+    "min_content_length": 200,
+    "install_slim": "pip install 'markitdown[pdf,docx,xlsx]'",
+    "install_full": "pip install 'markitdown[all]'",
+    "notes": "精简安装只加载 PDF/Word/Excel 转换器，import 速度更快。opendataloader-pdf 需要 Java 11+（https://adoptium.net/），首次调用较慢（JVM 启动约 5-10 秒）"
+  },
+  "markitdown_plugins": {
+    "enabled": false,
+    "_comment": "设为 true 后启用已安装的第三方插件（如 markitdown-ocr）",
+    "ocr": {
+      "enabled": false,
+      "_comment": "对 PDF/DOCX/PPTX/XLSX 中嵌入图片做 OCR。需要: pip install markitdown-ocr openai；以及 OPENAI_API_KEY 环境变量",
+      "llm_model": "gpt-4o"
+    }
+  }
+}
